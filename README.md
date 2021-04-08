@@ -1,53 +1,36 @@
-# New Project Template
+# Quezzes for Programming Education Assitant
 
-This repository contains a template that can be used to seed a repository for a
-new Google open source project.
+This repository contains quizzes for a project of [programming education assistant tools](https://github.com/google/prog-edu-assistant). The tools can add autograding capability to Python programming courses using Jupyter or Colab notebooks.
+Note that this repository only includes quizzes for the tools so codes of the tools itself should go to [the tool's repository](https://github.com/google/prog-edu-assistant).
 
-See [go/releasing](http://go/releasing) (available externally at
-https://opensource.google/docs/releasing/) for more information about
-releasing a new Google open source project.
+## Who is this project for?
 
-This template uses the Apache license, as is Google's default.  See the
-documentation for instructions on using alternate license.
+The main target audience is teaching staff who develops programming courses
+using Jupyter notebooks. The tools provided by this project facilitate addition
+of autogradable tests to programming assignments, automatic extraction of the
+autograding tests and student versions of the notebooks, and easy deployment of
+the autograding backend to the cloud.
 
-## How to use this template
+The main focus is Japanese universities, so the quiezzes provided
+on this repository are mostly in Japanese language.
 
-1. Clone it from GitHub.
-    * There is no reason to fork it.
-1. Create a new local repository and copy the files from this repo into it.
-1. Modify README.md and docs/contributing.md to represent your project, not the
-   template project.
-1. Develop your new project!
+## How to integrate autograder to your course
 
-``` shell
-git clone https://github.com/google/new-project
-mkdir my-new-thing
-cd my-new-thing
-git init
-cp -r ../new-project/* ../new-project/.github .
-git add *
-git commit -a -m 'Boilerplate for new Google open source project'
-```
+If you have a course based on Jupyter notebooks and want to integrate the
+autochecking tests, there are multiple different way how the autochecking tests
+can be run. See [README of the tool](https://github.com/google/prog-edu-assistant/blob/main/README.md#how-to-integrate-autograder-to-your-course) for its details.
+Basically, the quezzes in this repository considers running autochecking inside the student notebook.
 
-## Source Code Headers
+## Development environment setup
 
-Every file containing source code must include copyright and license
-information. This includes any JS/CSS files that you might be serving out to
-browsers. (This is to help well-intentioned people avoid accidental copying that
-doesn't comply with the license.)
+Follow [the tools guideline](https://github.com/google/prog-edu-assistant/blob/main/SETUP.md).
 
-Apache header:
+## License
 
-    Copyright 2021 Google LLC
+This work is licensed under a CC BY 4.0 license. See [LICENSE](LICENSE) for details.
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+## Disclaimer
 
-        https://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+This project is not an official Google project. It is not supported by Google
+and Google specifically disclaims all warranties as to its quality,
+merchantability, or fitness for a particular purpose.

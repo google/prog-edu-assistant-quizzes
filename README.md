@@ -1,4 +1,4 @@
-# Quezzes for Programming Education Assitant
+# Quizzes for Programming Education Assitant
 
 This repository contains quizzes for a project of [programming education assistant tools](https://github.com/google/prog-edu-assistant). The tools can add autograding capability to Python programming courses using Jupyter or Colab notebooks.
 Note that this repository only includes quizzes for the tools so codes of the tools itself should go to [the tool's repository](https://github.com/google/prog-edu-assistant).
@@ -19,7 +19,7 @@ on this repository are mostly in Japanese language.
 If you have a course based on Jupyter notebooks and want to integrate the
 autochecking tests, there are multiple different way how the autochecking tests
 can be run. See [README of the tool](https://github.com/google/prog-edu-assistant/blob/main/README.md#how-to-integrate-autograder-to-your-course) for its details.
-Basically, the quezzes in this repository considers running autochecking inside the student notebook.
+Basically, the quizzes in this repository considers running autochecking inside the student notebook.
 
 ## Development environment setup
 
